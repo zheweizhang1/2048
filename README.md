@@ -9,7 +9,7 @@ This is a web browser replica of the popular game 2048.
 
 ```
 # First, clone this repo:
-git clone git@github.com:zheweozhang1/2048.git
+git clone git@github.com:zheweizhang1/2048.git
 ```
 
 #### Option 1: Using the basic index.html page
