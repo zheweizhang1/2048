@@ -1,0 +1,108 @@
+/* h1: 2048 title */
+h1 {
+	margin-bottom:0;
+	color: #776e65;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	margin: 0;
+	display: block;
+	align-content: center;
+}
+
+/* p: Instruction texts */
+p {
+	margin-top:10px;
+	margin-bottom:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888;
+	text-align:center;
+}
+
+body {
+	margin: 40px 0;
+	background: #faf8ef; /* color of page background */
+}
+
+
+.cell {
+	background-color: rgba(238, 228, 218, 0.35); /* color of cell background */
+	color: #fff; /* color of number in cell */
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	line-height: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+}
+
+
+.wrapper {
+	background-color: #bbada0; /* color of grid background (gaps) */
+	width: 430px;
+	display: grid;
+	margin: 0 auto;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(4, 100px);
+	grid-auto-flow: row;
+	border: 10px solid #bbada0; /* color of grid border */
+	border-radius: 5px;
+}
+
+
+#legend {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F32D2D;
+}
+
+#scores-container {
+	height:75px;
+	display: block;
+}
+
+#score {
+	background-color: #bbada0;
+	text-align: center;
+	margin: auto;
+	padding: 10px 25px;
+	width: 70px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+#score-label {
+	color: #eee4da;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#score-number {
+	color: white;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#highscore-container {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#highscore-container table {
+	border: 5px solid #bbada0;
+	border-radius: 5px;
+	background-color: #bbada0;
+	margin: 0 auto;
+}
+
+#highscore-container th {
+	color: #eee4da;
+	margin: 0 auto;
+}
+
+#highscore-container td {
+	color: white;
+	margin: 0 auto;
+}
