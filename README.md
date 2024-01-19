@@ -5,6 +5,9 @@
 
 This is a web browser replica of the popular game 2048.
 
+### Playable site:
+https://zheweizhang1.github.io/2048/
+
 ### Local gameplay:
 
 ```
