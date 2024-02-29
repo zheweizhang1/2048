@@ -19,4 +19,4 @@ git clone git@github.com:zheweizhang1/2048.git
 
 Simply copy the path of the `index.html` file in the root directory and visit the address in your web browser. The game should be running there!
 
-
+<3>
